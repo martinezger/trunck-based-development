@@ -14,6 +14,6 @@ def goodby_world():
 def hello(name):
     return f"<h1>hello {name.title()}</h1>"
 
-@app.route("/addition/<a>/<b>")
+@app.route("/addition/<int:a>/<int:b>")
 def addition(a,b):
     return f"<h1> {a} + {b} = {a+b}"
