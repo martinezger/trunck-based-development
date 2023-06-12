@@ -1,5 +1,7 @@
 # Sample of trunk based development
 
+a change
+
 fifth commit is hotfix
 
 ![trunk_based_repo](vsc.png)
